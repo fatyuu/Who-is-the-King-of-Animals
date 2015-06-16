@@ -1,0 +1,316 @@
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.full-screen {
+  width: 100%;
+  height: 100%;
+}
+.display-none {
+  display: none !important;
+}
+.surround {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -3050px;
+  margin-top: -3050px;
+  width: 6100px;
+  height: 6100px;
+}
+.margin-0 {
+  margin-top: 0;
+  margin-left: 0;
+}
+#left-top {
+  position: absolute;
+  width: 3000px;
+  height: 3000px;
+  left: 0;
+  right: auto;
+  top: 0;
+  bottom: auto;
+  background-color: #000000;
+}
+#right-top {
+  position: absolute;
+  width: 3000px;
+  height: 3000px;
+  left: auto;
+  right: 0;
+  top: 0;
+  bottom: auto;
+  background-color: #000000;
+}
+#left-bottom {
+  position: absolute;
+  width: 3000px;
+  height: 3000px;
+  left: 0;
+  right: auto;
+  top: auto;
+  bottom: 0;
+  background-color: #000000;
+}
+#right-bottom {
+  position: absolute;
+  width: 3000px;
+  height: 3000px;
+  left: auto;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  background-color: #000000;
+}
+#left {
+  position: absolute;
+  width: 3000px;
+  height: 100px;
+  left: 0;
+  right: auto;
+  top: 3000px;
+  bottom: auto;
+  background-color: #000000;
+}
+#top {
+  position: absolute;
+  width: 100px;
+  height: 3000px;
+  left: 3000px;
+  right: auto;
+  top: 0;
+  bottom: auto;
+  background-color: #000000;
+}
+#right {
+  position: absolute;
+  width: 3000px;
+  height: 100px;
+  left: auto;
+  right: 0;
+  top: 3000px;
+  bottom: auto;
+  background-color: #000000;
+}
+#bottom {
+  position: absolute;
+  width: 100px;
+  height: 3000px;
+  left: 3000px;
+  right: auto;
+  top: auto;
+  bottom: 0;
+  background-color: #000000;
+}
+.begin {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.begin__animal {
+  position: absolute;
+}
+.begin__animal img {
+  width: 100%;
+  height: 100%;
+}
+.begin__animal__bear {
+  bottom: 15px;
+  left: 300px;
+}
+.begin__animal__elephant {
+  bottom: -80px;
+  right: -20px;
+}
+.begin__animal__deer {
+  bottom: 20px;
+  left: 150px;
+}
+.begin__animal__penguin {
+  bottom: 20px;
+  left: 100px;
+}
+.begin__animal__penguin-1 {
+  bottom: 20px;
+  left: 450px;
+}
+.begin__animal__penguin-2 {
+  bottom: 20px;
+  left: 520px;
+}
+.begin__animal__penguin-3 {
+  bottom: 20px;
+  left: 590px;
+}
+.begin__animal__penguin-4 {
+  bottom: 20px;
+  left: 700px;
+}
+.begin__animal__penguin-5 {
+  bottom: 20px;
+  left: 780px;
+}
+.begin__animal__cat {
+  bottom: 0;
+  left: 0;
+}
+.tutorial {
+  position: absolute;
+  z-index: 1;
+}
+.tutorial__btn {
+  position: absolute;
+  bottom: 150px;
+  right: 50%;
+  margin-right: -56px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+.tutorial__btn:hover {
+  border: 3px solid #444;
+}
+.tutorial__board-1 {
+  position: absolute;
+  top: 280px;
+  left: 730px;
+}
+.tutorial__board-2 {
+  position: absolute;
+  bottom: -30px;
+  left: 50px;
+}
+.tutorial__title {
+  position: absolute;
+  top: 30px;
+  left: 450px;
+}
+.timer {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+.level-base {
+  width: 100%;
+  height: 100%;
+}
+.level-base img {
+  width: 100%;
+  height: 100%;
+}
+.question {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 250px;
+  border-radius: 3px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 3px solid gray;
+  background-color: #eee;
+  margin-top: -125px;
+  margin-left: -200px;
+}
+.question__btn {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #fff;
+  padding: 2px;
+  text-align: center;
+  margin: 5px;
+  line-height: 25px;
+  cursor: pointer;
+}
+.question__btn:hover {
+  border: 1px solid #333;
+}
+.question__title {
+  text-align: center;
+}
+.finish__victory-screen {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -300px;
+  margin-left: -200px;
+}
+.finish__victory-screen img {
+  width: 100%;
+  height: auto;
+}
+.finish__animal {
+  position: absolute;
+}
+.finish__animal img {
+  width: 100%;
+  height: 100%;
+}
+.finish__animal__bear {
+  bottom: 20px;
+  left: 310px;
+}
+.finish__animal__elephant {
+  bottom: -60px;
+  right: -20px;
+}
+.finish__animal__deer {
+  bottom: 25px;
+  left: 165px;
+}
+.finish__animal__penguin-1 {
+  bottom: 20px;
+  left: 470px;
+}
+.finish__animal__penguin-2 {
+  bottom: 20px;
+  left: 550px;
+}
+.finish__animal__penguin-3 {
+  bottom: 20px;
+  left: 115px;
+}
+.finish__animal__cat {
+  bottom: 5px;
+  left: 10px;
+}
+.finish__animal__rhino {
+  bottom: -24px;
+  left: 683px;
+}
+.move-top {
+  animation-duration: 0.5s;
+  animation-name: updown;
+  animation-iteration-count: infinite;
+}
+@keyframes updown {
+  50% {
+    bottom: 20px;
+  }
+}
+.move-tilt {
+  animation-duration: 1s;
+  animation-name: leftright;
+  animation-iteration-count: infinite;
+}
+@keyframes leftright {
+  0% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(-8deg);
+  }
+}

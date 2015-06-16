@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <!-- 遮住視線方塊 -->
+  <div id="surround" class="surround display-none">
+    <div id="left-top"></div>
+    <div id="top"></div>
+    <div id="right-top"></div>
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="left-bottom"></div>
+    <div id="bottom"></div>
+    <div id="right-bottom"></div>
+  </div>
+  <!-- 遊戲開始畫面 -->
+  <div id="begin" class='begin full-screen'>
+    <div class="begin__title"><img src="images/title.png">
+    </div>
+    <div class="begin__animal begin__animal__bear">
+      <img src="images/bear-200.png">
+    </div>
+    <div class="begin__animal begin__animal__elephant">
+      <img src="images/elephant-500.png">
+    </div>
+    <div class="begin__animal begin__animal__deer">
+      <img src="images/deer-200.png">
+    </div>
+    <div class="begin__animal begin__animal__penguin-1">
+      <img src="images/penguin-150.png">
+    </div>
+    <div class="begin__animal begin__animal__penguin-2">
+      <img src="images/penguin-150.png">
+    </div>
+    <div class="begin__animal begin__animal__penguin-3">
+      <img src="images/penguin-150.png">
+    </div>
+    <div class="begin__animal begin__animal__penguin-4">
+      <img src="images/penguin-150.png">
+    </div>
+    <div class="begin__animal begin__animal__penguin-5">
+      <img src="images/penguin-150.png">
+    </div>
+    <div class="begin__animal begin__animal__penguin">
+      <img src="images/penguin-150.png">
+    </div>
+    <div class="begin__animal begin__animal__cat">
+      <img src="images/cat-150.png">
+    </div>
+  </div>
+  <!-- 遊戲tutorial screen -->
+  <div id="tutorial" class="tutorial full-screen">
+    <button id="tutorial-btn" class="tutorial__btn"><img src="images/tutorial-btn-100.png">
+    </button>
+    <div id="tutorial-title-1" class="tutorial__title"><img src="images/tutorial-title-1.png">
+    </div>
+    <div id="tutorial-board-1" class="tutorial__board-1"><img src="images/tutorial-1.1.png">
+    </div>
+    <div id="tutorial-board-2" class="tutorial__board-2"><img src="images/tutorial-2.png">
+    </div>
+  </div>
+  <!-- 遊戲timer-->
+  <div id="timer" class="timer">15</div>
+  <!-- 遊戲關卡 screen -->
+  <div id="level-base" class="level-base display-none"></div>
+
+  <!-- 遊戲question screen -->
+  <div id="question" class="question display-none">
+    <h2 id="question-title" class="question__title"></h2>
+    <div id="question-btn-0" class="question__btn" data-order="0"></div>
+    <div id="question-btn-1" class="question__btn" data-order="1"></div>
+    <div id="question-btn-2" class="question__btn" data-order="2"></div>
+    <div id="question-btn-3" class="question__btn" data-order="3"></div>
+    <div id="question-btn-4" class="question__btn" data-order="4"></div>
+    <div id="question-btn-5" class="question__btn" data-order="5"></div>
+    <div id="question-btn-6" class="question__btn" data-order="6"></div>
+    <div id="question-btn-7" class="question__btn" data-order="7"></div>
+    <div id="question-btn-8" class="question__btn" data-order="8"></div>
+  </div>
+
+  <!-- 遊戲finish screen -->
+  <div id="finish" class="finish display-none">
+    <div id="finish-victory-screen" class="finish__victory-screen move-tilt"></div>
+    <div class="finish__animal finish__animal__bear move-top">
+      <img src="images/bear-200.png">
+    </div>
+    <div class="finish__animal finish__animal__elephant move-top">
+      <img src="images/elephant-400.png">
+    </div>
+    <div class="finish__animal finish__animal__deer move-top">
+      <img src="images/deer-200.png">
+    </div>
+    <div class="finish__animal finish__animal__penguin-1 move-tilt">
+      <img src="images/penguin-150.png">
+    </div>
+    <div class="finish__animal finish__animal__penguin-2 move-tilt">
+      <img src="images/penguin-150.png">
+    </div>
+    <div class="finish__animal finish__animal__penguin-3 move-tilt">
+      <img src="images/penguin-150.png">
+    </div>
+    <div class="finish__animal finish__animal__cat move-top">
+      <img src="images/cat-150.png">
+    </div>
+    <div class="finish__animal finish__animal__rhino move-top">
+      <img src="images/rhino-1.png">
+    </div>
+  </div>
+  
+  <!-- 預先download圖片 -->
+  <div class="display-none">
+    <img src="images/question-5.png">
+    <img src="images/question-4.png">
+    <img src="images/question-3.png">
+    <img src="images/question-2.png">
+    <img src="images/question-1.png">
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
